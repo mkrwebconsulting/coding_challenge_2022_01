@@ -1,0 +1,42 @@
+{
+  "name": "ao-746-landingpage-einfachheit",
+  "version": "1.0.0",
+  "description": "ao-746-landingpage-einfachheit",
+  "main": "public/js/index.js",
+  "scripts": {
+    "start": "node-sass --watch public/assets/sass -o public/assets/css & budo --live --ssl --cors --dir public",
+    "scss": "node-sass --watch public/assets/sass -o public/assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "processjs": "uglifyjs --compress --mangle -- public/assets/js_temp/*.js",
+    "processcss": "npx postcss public/assets/css/*.css --use autoprefixer -d build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:reizwerk/ao-746-landingpage-einfachheit.git"
+  },
+  "keywords": [
+    "akdemische",
+    "sse"
+  ],
+  "author": "Reizwerk GmbH <developer@reizwerk.com>",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/reizwerk/ao-746-landingpage-einfachheit/src/master/",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "budo": "^11.6.4",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.3",
+    "stylelint-config-standard": "^23.0.0",
+    "uglifyjs": "^2.4.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1"
+  }
+}

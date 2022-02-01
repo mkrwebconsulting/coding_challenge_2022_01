@@ -1,0 +1,29 @@
+/* -----------------------------
+ * Fonts
+ * ----------------------------- */
+
+@font-face {
+  font-family: "WK-icomoon";
+  src: url("../fonts/WK-icomoon/WK-icomoon.eot");
+  src: url("../fonts/WK-icomoon/WK-icomoon.eot#iefix")
+    format("embedded-opentype"),
+    url("../fonts/WK-icomoon/WK-icomoon.ttf") format("truetype"),
+    url("../fonts/WK-icomoon/WK-icomoon.woff") format("woff"),
+    url("../fonts/WK-icomoon/WK-icomoon.svg#WK-icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon,
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "WK-icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

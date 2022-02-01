@@ -1,0 +1,222 @@
+#rw body {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 141%;
+    background-color: #fafafa;
+    color: #474747;
+}
+
+#rw .card-hero {
+    background-color: #FFE114;
+    border-radius: 8px;
+    padding: 20px 80px;
+
+}
+
+@media only screen and (max-width: 818px) {
+    #rw .card-hero {
+        border-radius: 0px;
+        padding: 24px 16px;
+        margin-top: -20px;
+    }
+}
+
+
+#rw .subheadline {
+    font-size: 1.5rem;
+    line-height: 132%;
+    /* Color / Primary-B--150 */
+    color: #004380;
+    margin-bottom: 8px;
+}
+
+#rw .title--medium {
+/*font-family: Fira Sans Medium;
+font-style: normal;
+font-weight: normal; */
+font-size: 2.25rem;
+line-height: 114%;
+letter-spacing: -0.005em;
+color: #004380;
+margin-bottom: 24px;
+}
+
+/* button blue */
+#rw .button-primary
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+position: static;
+color: white;
+font-family: Fira Sans;
+font-size: 17px;
+/* Color / Primary-B--100 */
+
+background: #176396;
+border-radius: 8px;
+border: none;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+#rw .button-icon
+{
+    margin-right: 8px;
+}
+
+#rw .img-hero-wrapper
+    {
+        max-width: 40vw;
+        object-fit: contain;
+    
+    }
+    @media only screen and (max-width: 818px)
+    {
+        #rw .img-hero-wrapper
+        {
+            max-width: 80vw;
+            object-fit: contain;
+            margin-bottom: 1rem;
+    
+        }
+    } 
+#rw .h1--medium
+{
+    /* @L / H 1--Medium */
+
+
+font-weight: 500;
+font-size: 1.75rem;
+line-height: 111%;
+/* identical to box height, or 111% */
+
+
+letter-spacing: -0.005em;
+
+/* Color / Neutrals--100 */
+
+color: #474747;
+}
+
+#rw .section--one
+    {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    margin: 80px auto;
+    }
+    @media only screen and (max-width: 1280px)
+    {
+    #rw .section--one{
+        padding: 0rem 1rem;
+        margin: 40px auto;
+        }
+    }
+
+
+#rw .icon-cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+}
+
+@media only screen and (min-width: 992px) {
+    #rw .icon-content-wrapper
+    {
+        text-align: center;
+    }
+    
+}
+
+#rw .icon-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    margin-bottom: 1rem;
+    }
+
+#rw .h3--medium {
+    font-weight: 500;
+    color: #474747;
+
+}
+
+#rw .icon-symbol-wrapper {
+    margin-bottom: 1.5rem;
+}
+#rw .icon-symbol {
+        max-width: 2.5rem;
+    }
+
+    @media only screen and (max-width: 992px) {
+    #rw .icon-symbol-wrapper
+    {
+        margin-right: 1.5rem;
+    }
+    #rw .icon-symbol
+    {
+        max-width: 2rem;
+    }
+    
+    }
+
+#rw .card-blue {
+    background: #99CDE8;
+    border-radius: 8px;
+    }
+    @media only screen and (max-width: 818px) {
+        #rw .card-blue {
+            padding: 24px 16px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            
+        }
+    }
+#rw .logos-kunden {
+    max-width: 160px;
+}
+
+@media only screen and (max-width: 818px) {
+    #rw .logos-kunden {
+        max-width: 25vw;
+        
+    }
+}
+
+#rw .h2--medium
+{
+   font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 114%;
+    letter-spacing: -0.003em;
+    color: #474747;
+    border-bottom: 0px;
+}
+
+
+#rw .section--accordion
+    {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    margin: 80px auto;
+    }
+    @media only screen and (max-width: 1280px)
+    {
+    #rw .section--accordion{
+        padding: 0rem 1rem;
+        margin: 40px auto;
+        }
+    }
